@@ -1,10 +1,84 @@
-/* test styles to ensure proper linking */
-header {
-    background-color: blue;
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/* wildcard selector to override defauly styles in browser */
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #18768d;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+#main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#main-menu li {
+    margin-left: 10px
+}
+
+#main-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+#main-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+#main-menu .active {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
 main {
-    background-color: red;
+    flex: 1 0 auto;
+    background-color: darkslategray;
+    padding: 10px;
 }
 footer {
-    background-color: yellow;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 0 1 auto;
 }
