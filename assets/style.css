@@ -75,6 +75,35 @@ main {
     background-color: darkslategray;
     padding: 10px;
 }
+#photo {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+#photo img {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+#cover-text {
+    position: absolute;
+    top:0; 
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    color: white; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    text-align: center; 
+    box-sizing: border-box;
+}
+#main-content {
+    margin: 0;
+    padding: 5px;
+    color: #a9b1af;
+    text-align: center;
+}
 footer {
     background-color: #333;
     color: white;
