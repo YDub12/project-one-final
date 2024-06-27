@@ -1,0 +1,10 @@
+/* test styles to ensure proper linking */
+header {
+    background-color: blue;
+}
+main {
+    background-color: red;
+}
+footer {
+    background-color: yellow;
+}
