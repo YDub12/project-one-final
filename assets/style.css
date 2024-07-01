@@ -166,3 +166,8 @@ footer {
     padding: 5%;
     font-size: 150%;
 }
+
+/*media query: tablets and larger (768px and above) */
+@media screen and (min-width:768px) {
+    
+}
