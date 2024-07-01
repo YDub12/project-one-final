@@ -169,5 +169,17 @@ footer {
 
 /*media query: tablets and larger (768px and above) */
 @media screen and (min-width:768px) {
+       #cover-text {
+       padding: 40px;
+       font-size: 1.2em;
+    }
+    #main-content {
+        padding: 40px 40px 60px;
+    }
+    #social-networks i {
+        font-size: 150%;
+    }
+}
+@media screen and (min-width:1024px) {
     
 }
