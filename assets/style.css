@@ -181,5 +181,23 @@ footer {
     }
 }
 @media screen and (min-width:1024px) {
+    #header-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-size: 120%;
+    }
+
+    main {
+        display:flexbox;
+    }
     
+    #main-content img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    #video-content {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
 }
