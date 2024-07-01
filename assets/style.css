@@ -104,6 +104,25 @@ main {
     color: #a9b1af;
     text-align: center;
 }
+#main-content p {
+    padding: 5px;
+    text-align: left;
+}
+#picture-content {
+    width: 100%;
+    padding:10px;
+    
+}
+table {
+    width:100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #fafafa;
+    padding: 8px;
+    text-align: left;
+}
 footer {
     background-color: #333;
     color: white;
