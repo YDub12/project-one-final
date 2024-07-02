@@ -107,7 +107,7 @@ main {
 #main-content {
     margin: 0;
     padding: 20px 20px 40px;
-    color: #a9b1af;
+    color: #d9dfdd;
     text-align: center;
     position: relative;
 }
@@ -168,36 +168,3 @@ footer {
 }
 
 /*media query: tablets and larger (768px and above) */
-@media screen and (min-width:768px) {
-       #cover-text {
-       padding: 40px;
-       font-size: 1.2em;
-    }
-    #main-content {
-        padding: 40px 40px 60px;
-    }
-    #social-networks i {
-        font-size: 150%;
-    }
-}
-@media screen and (min-width:1024px) {
-    #header-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        font-size: 120%;
-    }
-
-    main {
-        display:flexbox;
-    }
-    
-    #main-content img {
-        max-height: 300px;
-        max-width: 300px;
-    }
-    #video-content {
-        max-width: fit-content;
-        max-height: fit-content;
-    }
-
-}
