@@ -183,8 +183,21 @@ footer {
     }
 }
 @media screen and (min-width:1024px) {
-    #main-content img {
-        max-width: 500px;
-        max-height: 500px;
-        }
+body {
+    font-size: 150%;
+    }
+
+#main-content img {
+    max-width: 500px;
+    max-height: 500px;
+    }
+#main-content img:hover {
+    transform:scale(1.2);
+    }
+.next-page {
+    font-size: 80%;
+}
+.previous-page{
+    font-size: 80%;
+}
 }
