@@ -1,14 +1,13 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-
 /* wildcard selector to override defauly styles in browser */
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* body test basic settings */
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -16,32 +15,34 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/* set background colour and all round padding on header */
 header {
     background-color: #18768d;
     padding: 10px 20px;
 }
+/* remove decoration on anchor elements throughout */
 a {
     text-decoration: none;
 }
-
+/* change colour and place within the middle */
 #logo {
     color: white;
     margin: 0;
     padding: 5px;
     text-align: center;
 }
-
+/* nav display left as flex for larger screens to align to the left leading room for further expansion */
 nav {
     display: flex;
 }
-
+/* font-size set to 80% for smaller screen devices to ensure no overlap in the margins */
 #main-menu {
     list-style: none;
+    font-size: 80%;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #main-menu li {
@@ -54,12 +55,12 @@ nav {
     padding: 10px 15px;
     display: block;
 }
-
+/* Hover texture to allow users to see what they might be clicking on */
 #main-menu a:hover {
     background-color: #575757;
     border-radius: 5px;
 }
-
+/* denotes active page */
 #main-menu .active {
     background-color: #575757;
     border-radius: 5px;
@@ -160,7 +161,6 @@ footer {
     padding: 5%;
     font-size: 150%;
 }
-
 /*media query: tablets and larger (768px and above) */
 @media screen and (min-width:768px) {
 #photo img {
@@ -173,9 +173,10 @@ footer {
     }
 .large-scale-flex {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
     align-items: flex-start;
     }
+
 .large-scale-flex-reverse {
     display: flex;
     flex-wrap: nowrap;
