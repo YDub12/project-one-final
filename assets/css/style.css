@@ -59,7 +59,7 @@ nav {
 main {
     flex: 1 0 auto;
     background-color: darkslategray;
-    padding: 10px;
+    padding: 5px;
 }
 /* sets hero image and cover text */
 #photo {
@@ -152,6 +152,11 @@ th, td {
 }
 /* input type */
 input[type=submit]{
+    background-color: #fafafa;
+    padding: 5px;
+    border: 3px solid #333;
+}
+input[type=reset]{
     background-color: #fafafa;
     padding: 5px;
     border: 3px solid #333;
