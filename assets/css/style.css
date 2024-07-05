@@ -38,7 +38,7 @@ nav {
 /* main menu configuration */
 #main-menu {
     list-style: none;
-    font-size: 60%;
+    font-size: 50%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -52,11 +52,11 @@ nav {
 }
 #main-menu a:hover {
     background-color: #575757;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 #main-menu .active {
     background-color: #575757;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 /* sets the basic format for the main section */
 main {
@@ -112,6 +112,7 @@ iframe {
     width: 100%;
     padding:10px;    
 }
+/* for the table and headers */
 table {
     width:100%;
     border-collapse: collapse;
