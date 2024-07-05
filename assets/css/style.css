@@ -35,7 +35,7 @@ a {
 nav {
     display: flex;
 }
-/* font-size set to 80% for smaller screen devices to ensure no overlap in the margins */
+/* main menu configuration */
 #main-menu {
     list-style: none;
     font-size: 60%;
@@ -44,33 +44,30 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
 #main-menu li {
     margin-left: 10px;
 }
-
 #main-menu a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
-/* Hover texture to allow users to see what they might be clicking on */
 #main-menu a:hover {
     background-color: #575757;
     border-radius: 5px;
 }
-/* denotes active page */
 #main-menu .active {
     background-color: #575757;
     border-radius: 5px;
 }
-
+/* sets the basic format for the main section */
 main {
     flex: 1 0 auto;
     background-color: darkslategray;
     padding: 10px;
 }
+/* sets hero image and cover text */
 #photo {
     position: relative;
     width: 100%;
@@ -98,11 +95,14 @@ main {
     align-items: center;
     position: relative;
     margin: 0;
-    padding: 10px;
+}
+iframe {
+    height: 100%;
+    width: 90%;
 }
 #main-content {
     margin: 0;
-    padding: 20px 20px 40px;
+    padding: 5px;
     color: #d9dfdd;
     text-align: center;
     position: relative;
@@ -125,9 +125,13 @@ th, td {
     padding: 8px;
     text-align: left;
 }
+/* configure the next and previous page buttons */
+#nav-buttons {
+    height: 40px;
+}
 .next-page {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px;
     color: #fafafa;
     text-decoration: none;
     border: 2px solid #575757;
@@ -136,13 +140,14 @@ th, td {
 }
 .previous-page {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 5px;
     color: #fafafa;
     text-decoration: none;
     border: 2px solid #575757;
     position: absolute;
     left: 20px;
 }
+/* sets the footer and ids for the bottom */
 footer {
     background-color: #333;
     color: white;
@@ -170,6 +175,9 @@ footer {
     height: 60vh;
     object-fit: cover;
     }
+iframe {
+    height: 350px;
+}
 #main-content img {
     max-width: 300px;
     max-height: 300px;
@@ -183,12 +191,11 @@ body {
     max-width: 500px;
     max-height: 500px;
     }
-#main-content img:hover {
-    transform:scale(1.2);
-    }
-#video-content {
+iframe {
     width: 400px;
+    height: 400px;
 }
+
 .next-page {
     font-size: 80%;
     }
