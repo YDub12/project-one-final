@@ -6,6 +6,7 @@ In this project I set out to give a brief overview of the Battle of Cannae, part
 
 The site is targeted towards people, who may not be aware of one of the most significant incidents in Western European history. It gives some information and includes some of the artwork relating to the time period. 
 
+![Am I responsive](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/am-i-responsive.PNG)
 
 
 ## Features
