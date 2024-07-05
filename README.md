@@ -116,6 +116,8 @@ Finally the route of Hannibal's march was taken from a Reddit post on [r/phoenic
 
 Images for the footer were taken from [Font Awesome](https://fontawesome.com/search?q=wiki&o=r&m=free) 
 
+Fonts were taken from [Google Fonts](https://fonts.google.com/)
+
 ### Content 
 All written content was created by myself, but using Wikipedia articles to refresh my memory. 
 
