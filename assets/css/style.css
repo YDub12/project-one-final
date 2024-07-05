@@ -42,15 +42,12 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-}
-#main-menu li {
-    margin-left: 10px;
+    justify-content:flex-start;
 }
 #main-menu a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 5px 15px;
     display: block;
 }
 #main-menu a:hover {
