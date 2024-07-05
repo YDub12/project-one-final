@@ -12,8 +12,18 @@ The site is targeted towards people, who may not be aware of one of the most sig
 ## Features
 - __Navigation Bar__
     - Featured across the website with different sizes incorporated
+    ![header](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/header.PNG)
     
-- __Navigation Bar__
+- __Video content__
+    - Included on one of the pages with autoplay disabled
+
+- __Prelude page__
+    - Built to provide information on the background of the war itself, it includes the aforementioned video content as well as an image to provide context for the route
+    
+- __Navigation buttons__
+    - To save people needing to scroll back and forth to the top 
+- __Variety of images__
+    - Used sparingly, to break up long stretches of text
 ## Testing
 
 
