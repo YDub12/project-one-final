@@ -145,6 +145,16 @@ th, td {
     position: absolute;
     left: 20px;
 }
+/* setting to align the form */
+#form-submit td{
+    border: none;
+    padding: 0;
+}
+input[type=submit]{
+    background-color: #fafafa;
+    padding: 5px;
+    border: 3px solid #333;
+}
 /* sets the footer and ids for the bottom */
 footer {
     background-color: #333;

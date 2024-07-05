@@ -31,14 +31,26 @@
         <article id="main-content">
             <h2>Contact Us</h2>
             <p>Do you have an idea for what we can do next? Did you spot something we did wrong? Do you just want to stay in touch? Fill out the form below to be the first to get updates!</p>
-            <form action="thank-you.html" method="get">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email"><br>
-                <input type="submit" name="submit" id="submit" value="Submit">
+            <form action="thank-you.html" method="get" id="form">
+                <table id="form-submit">
+                    <tbody>
+                        <tr>
+                            <td><label for="fname">First Name:</label></td>
+                            <td><input type="text" id="fname" name="fname" placeholder="Your First Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">Last Name:</label></td>
+                            <td><input type="text" id="lname" name="lname" placeholder="Your Last Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email Address:</label></td>
+                            <td><input type="email" name="email" id="email" placeholder="Your Email Address"></td>
+                        </tr>
+                        <tr>
+                           <td><input type="submit" name="submit" id="submit" value="Submit"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </form>
         </article>
     </main>
