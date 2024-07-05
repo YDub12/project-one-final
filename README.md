@@ -6,33 +6,32 @@ In this project I set out to give a brief overview of the Battle of Cannae, part
 
 The site is targeted towards people, who may not be aware of one of the most significant incidents in Western European history. It gives some information and includes some of the artwork relating to the time period. 
 
-![Am I responsive](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/am-i-responsive.PNG)
+![Am I responsive](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/am-i-responsive.PNG)
 
 
 ## Features
 - __Navigation Bar__
     - Featured across the website with different sizes incorporated
-    ![header](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/header.PNG)
+    ![header](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/header.PNG)
     
 - __Video content__
     - Included on one of the pages with autoplay disabled
-    ![video](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/video.PNG)
+    ![video](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/video.PNG)
 
 - __Prelude page__
     - Built to provide information on the background of the war itself, it includes the aforementioned video content as well as an image to provide context for the route
-    ![prelude page](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/prelude.PNG)
+    ![prelude page](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/prelude.PNG)
 
 - __Navigation buttons__
     - To save people needing to scroll back and forth to the top and save space on smaller screens 
-    ![navigation buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/nav-buttons.PNG)
-
+    ![navigation buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/nav-buttons.PNG)
 - __Variety of images__
     - Used sparingly, to break up long stretches of text
 
 ### Features left to implement
 - __Styling the Form Page__
     - I unfortunately ran out of time to properly style the form page and would like to rework it to be more in keeping with some of the sample projects.
-![form](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/form.PNG)
+![form](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/form.PNG)
 ## Testing
 All external links were checked to make sure they opened in a new tab, including embedded Wikipedia links. 
 
@@ -40,10 +39,10 @@ After deployment it has been sent to other devices and opened, including phone, 
 
 ### Bugs
 There were numerous bugs throughout, the navigation buttons would often position themselves in awkward places and the padding on smaller screens lead to there being overlap throughout. This was initially resolved with placing them in their own section and reducing the padding on the sides. 
-![buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/nav-buttons.PNG)
+![buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/nav-buttons.PNG)
 
 There were issues with the image placements which interrupted the flow of information. This was resolved by placing them in a flex display for larger screens and increasing the sizing of the images and video for tablets. The image below is from my desktop. 
-![prelude](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/readme/prelude.PNG)
+![prelude](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/prelude.PNG)
 
 After deploying to Github, I found I had incorrect pathways to my css and all of my images failed to display as well all of my styling. This was a nice reminder on relative filepaths and early deployment.
 
