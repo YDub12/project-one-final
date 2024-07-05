@@ -10,10 +10,13 @@ The site is targeted towards people, who may not be aware of one of the most sig
 
 
 ## Features
-
-
-
+- __Navigation Bar__
+    - Featured across the website with different sizes incorporated
+    
+- __Navigation Bar__
 ## Testing
+
+
 CSS - No errors were found when passing through the [official validator Jigsaw](https://jigsaw.w3.org/css-validator) 
 
 HTML - All HTML also passed through the [official validator](https://validator.w3.org/)
