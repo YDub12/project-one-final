@@ -12,25 +12,31 @@ The site is targeted towards people, who may not be aware of one of the most sig
 ## Features
 - __Navigation Bar__
     - Featured across the website with different sizes incorporated
+
     ![header](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/header.PNG)
     
 - __Video content__
     - Included on one of the pages with autoplay disabled
+
     ![video](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/video.PNG)
 
 - __Prelude page__
     - Built to provide information on the background of the war itself, it includes the aforementioned video content as well as an image to provide context for the route
+
     ![prelude page](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/prelude.PNG)
 
 - __Navigation buttons__
     - To save people needing to scroll back and forth to the top and save space on smaller screens 
+
     ![navigation buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/nav-buttons.PNG)
+
 - __Variety of images__
     - Used sparingly, to break up long stretches of text
 
 ### Features left to implement
 - __Styling the Form Page__
     - I unfortunately ran out of time to properly style the form page and would like to rework it to be more in keeping with some of the sample projects.
+
 ![form](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/form.PNG)
 ## Testing
 All external links were checked to make sure they opened in a new tab, including embedded Wikipedia links. 
@@ -39,9 +45,11 @@ After deployment it has been sent to other devices and opened, including phone, 
 
 ### Bugs
 There were numerous bugs throughout, the navigation buttons would often position themselves in awkward places and the padding on smaller screens lead to there being overlap throughout. This was initially resolved with placing them in their own section and reducing the padding on the sides. 
+
 ![buttons](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/nav-buttons.PNG)
 
 There were issues with the image placements which interrupted the flow of information. This was resolved by placing them in a flex display for larger screens and increasing the sizing of the images and video for tablets. The image below is from my desktop. 
+
 ![prelude](https://raw.githubusercontent.com/YDub12/project-one-final/main/readme-assets/media%20folder/prelude.PNG)
 
 After deploying to Github, I found I had incorrect pathways to my css and all of my images failed to display as well all of my styling. This was a nice reminder on relative filepaths and early deployment.
@@ -62,8 +70,11 @@ A link to the live version can be found at the top of the page as well as [here]
 
 ### Media 
 The Roman army formation image (roman-army-formation.webp)
-![roman army formation](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/roman-army-formation.webp) and
-The Cannae order of battle (chart-cannae-1-i.webp)
+
+![roman army formation](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/roman-army-formation.webp) 
+
+And The Cannae order of battle (chart-cannae-1-i.webp)
+
 ![cannae formation](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/chart-cannae-1-i.webp)
 
 Were both taken from [the Roman empire site](https://roman-empire.net/) a useful online resource detailing the Roman army's creation and changes through the years with detailed breakdowns of the type of army.
@@ -71,23 +82,34 @@ Were both taken from [the Roman empire site](https://roman-empire.net/) a useful
 The video used in the prelude section was taken from the [oversimplified youtube channel](https://www.youtube.com/watch?v=805SIqgDZIE)
 
 The first of the Hero images (death-of-paullus2.webp) 
+
 ![Death of Paullus](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/death-of-paullus2.webp)
 
  was taken from [the Yale gallery](https://artgallery.yale.edu/collections/objects/44)
 
- Another of the Hero images ![Bust of Hannibal overlaid on Turner's crossing of the Alps](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/crossing-the-alps-marble-bust.webp)
+ Another of the Hero images 
+ 
+ ![Bust of Hannibal overlaid on Turner's crossing of the Alps](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/crossing-the-alps-marble-bust.webp)
+
  Was taken from [the Collector](https://www.thecollector.com/hannibal-barca-rome-worst-nightmare/)
 
- Hannibal swearing his oath ![Hannibal oath](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/hannibal-swearing-oath.webp)
+ Hannibal swearing his oath 
+ 
+ ![Hannibal oath](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/hannibal-swearing-oath.webp)
+
+
  Is from the [Royal Collection Trust](https://www.rct.uk/collection/405417/the-oath-of-hannibal)
 
-The Soldiers fighting at Cannae ![soldiers fighting at cannae](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/soldiers-fighting-at-Cannae.webp)
+The Soldiers fighting at Cannae 
+
+![soldiers fighting at cannae](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/soldiers-fighting-at-Cannae.webp)
 
 [That was found on a post from 2017 on my country Europe](https://mycountryeurope.com/history/hannibal-battle-cannae/)
 
 I also used [Google Earth](https://earth.google.com/web/) to get the actual site of Cannae 
 
 The bust of Hannibal is from a dig in Capua and was downloaded from Wikipedia 
+
 ![Hannibal bust](https://raw.githubusercontent.com/YDub12/project-one-final/main/assets/images/hannibal-barca-bust-from-capua-photo.webp)
 
 Finally the route of Hannibal's march was taken from a Reddit post on [r/phoenicianhistoryfacts](https://www.reddit.com/r/PhoeniciaHistoryFacts/comments/12jyk8x/map_of_hannibals_march_white_line_the_dotted_line/#lightbox)
